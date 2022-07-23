@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>Bro Testing</title>
+</head>
+<style>
+    body{
+        background: url("getimage.jpg");
+        background-size: 1300px 680px;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    div {
+  width: 500px;
+  height: 300px;
+  margin-right: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+ 
+}
+</style>
+<body>
+    <div>
+<h1>Testing HTTP Web Server</h1>
+<h3>Test Case : POST type request with Form Data </h3>
+<form action="save_test2_data" method="POST">
+    Name
+    <input type="text" name="nm" id="nm"><br>
+    Select city
+    <select name="ct" id="ct">
+        <option value='101'>Ujjain</option>
+        <option value='102'>Indore</option>
+        <option value='103'>Dewas</option>
+        <option value='104'>Mandsaur</option>
+        <option value='105'>Bhopal</option>
+    </select>
+    <br/>
+    Gender 
+    <input type="radio" name="gender" id="female" value="F" checked> Female
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="gender" id="male" value="M" checked> Male
+    <br/>
+    <button type="submit>">Save</button>
+</form>
+<br/><br/>
+
+</div>
+<a href='testindex.html'>Home</a><br/>
+</body>
+</html>
